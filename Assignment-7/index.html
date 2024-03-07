@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Imagination Station Toy Store
+    </title> <!-- Page title -->
+    <!-- Define the character set used: -->
+    <meta charset="UTF-8">
+    <!-- Provide a description of your page: -->
+    <meta name="description" content="toy store contact page">
+    <!-- Provide the author information for the page: -->
+    <meta name="author" content="Trystan Harmon">
+    <!-- Other meta elements -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f39376; /* Background color of the page */
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font used in the page */
+            font-size: 14px; /* Font size of the text */
+        }
+
+        table {
+            border: 1px solid rgb(255, 255, 255); /* Border for the table */
+        }
+
+        img {
+            max-width: 100%; /* Image will not exceed its parent container's width */
+            height: auto; /* Maintain aspect ratio when scaling image */
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/Imagination_Station.png" width="500" height="100" alt="Imagination Station Logo" title="Imagination Station">
+
+    <h1>
+        Contact Us!
+    </h1> <!-- Main heading of the page -->
+    <p><a href="mailto:info@ImaginationStation.com">Send an email!</a></p>
+    <address> <!-- Contact information -->
+        Imagination Station<br />
+        227 N. Higgins.<br />
+        Missoula MT, 59802<br />
+        (406) 926-3325<br />
+    </address>
+
+    <h2>Store Hours:</h2> <!-- Heading for store hours -->
+    <table> <!-- Table displaying store hours -->
+        <tr>
+            <th>Days/Hours</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>10 am - 7 pm</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>10 am - 8 pm</td>
+        </tr>
+        <tr>
+            <td>Wedensday</td>
+            <td>10 am - 8 pm</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>10 am - 8 pm</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>10 am - 10 pm</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>10 am - 10 pm</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>10 am - 5 pm</td>
+        </tr>
+        </tr>
+    </table>
+
+    <h2>Subscribe to our Newsletter:</h2> <!-- Heading for newsletter subscription section -->
+    <form method="POST" action="index.html"> <!-- Form for newsletter subscription -->
+        Name:<br/>
+        <input type="text" id="name" placeholder="Enter your name" autofocus>
+        <p></p>
+
+        Newsletter?<br/>
+        <p></p>
+        Yes &nbsp;
+        <input type="radio" name="newsletter" id="newsletter-yes" value="Y">
+        No &nbsp;
+        <input type="radio" name="newsletter" id="newsletter-no" value="N" checked>
+        <p></p>
+
+        <input type="checkbox" id="subscribe-updates" name="subscribe-updates" value="Y">
+        <label for="subscribe-updates">Receive occasional Updates, Promotions, and New Arrivals!</label>
+        <p></p>
+
+        Comments<br/>
+        <textarea name="comments" id="comments" rows="10" cols="30">
+Your comments here
+</textarea>
+        <p></p>
+
+        <button type="submit">Submit</button> <!-- Submit button for the form -->
+        <input type="reset" value="Reset"> <!-- Reset button for the form -->
+    </form>
+</body>
+
+</html>
