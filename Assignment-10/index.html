@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Website</title>
+    <style>
+        /* Internal CSS Stylesheet */
+        /* Class Selector */
+        .car-info {
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        /* ID Selector */
+        #header {
+            background-color: #f0ad4e;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        /* Additional Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c7c6b4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-highlight {
+            background-color: #dff0d8;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .car-position {
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+
+        .car-opacity {
+            opacity: 0.9;
+        }
+
+        /* Image Styling */
+        .car-img {
+            width: 100%;
+            height: 200px; /* Set desired height */
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to Cars Hub</h1>
+    </div>
+    <div class="container">
+        <h2 class="car-info">Featured Cars</h2>
+        <p class="car-info">Explore our latest collection of top-notch cars.</p>
+        <div class="car-highlight">
+            <h3 id="tesla-heading" class="car-info">Tesla Model S</h3>
+            <img src="images/Tesla.jpg" alt="Tesla Model S" class="car-img">
+            <p class="car-opacity">The Tesla Model S is an all-electric luxury sedan, known for its impressive performance and cutting-edge technology.</p>
+        </div>
+        <div class="car-highlight">
+            <h3 id="mustang-heading" class="car-info">Ford Mustang GT</h3>
+            <img src="images/mustang.jpg" alt="Ford Mustang GT" class="car-img">
+            <p class="car-opacity">The Ford Mustang GT is an iconic muscle car, famous for its powerful engine and timeless design.</p>
+        </div>
+        <div class="car-highlight">
+            <h3 id="porsche-heading" class="car-info">Porsche 911</h3>
+            <img src="images/911.jpg" alt="Porsche 911" class="car-img">
+            <p class="car-opacity">The Porsche 911 is a legendary sports car, revered for its precision engineering and exhilarating driving experience.</p>
+        </div>
+    </div>
+</body>
+</html>
