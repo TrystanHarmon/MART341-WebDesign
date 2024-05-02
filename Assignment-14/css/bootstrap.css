@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+    background-color: #000; /* Black background */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc; /* Light grey text on hover */
+}
+
+/* Main content */
+.row {
+    margin-top: 20px;
+}
+
+.col-4 {
+    padding: 20px;
+}
+
+/* Canvas */
+canvas {
+    border: 1px solid #ccc; /* Grey border */
+    display: block;
+    margin: 0 auto; /* Center the canvas */
+}
+
+/* Text content */
+h2 {
+    color: #333; /* Dark grey heading */
+}
+
+p {
+    color: #666; /* Medium grey text */
+    line-height: 1.5; /* Improved readability */
+}
